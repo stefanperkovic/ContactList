@@ -13,7 +13,9 @@ public class ContactList
 {
     // TODO: Create your array contacts
 
+
     // TODO: Write a Constructor
+
 
     public void printMenuOptions() {
         System.out.println("Menu: ");
