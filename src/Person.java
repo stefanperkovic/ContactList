@@ -1,10 +1,6 @@
-/**
- * A class that represents a Person
- *
- * Created for Menlo School CS2
- *
- * @author: Ms. Namasivayam & Mr. Blick
- * @version: 2022-2023
+/** Person.java
+ * Stefan Perkovic January, 20 2023
+ * A class that represents a Person and their common attributes
  */
 
 public class Person {

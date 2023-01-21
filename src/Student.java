@@ -1,10 +1,6 @@
-/**
- * A subclass of Person that represents a Student
- *
- * Created for Menlo School CS2
- *
- * @author: Ms. Namasivayam & Mr. Blick
- * @version: 2022-2023
+/** Student.java
+ * Stefan Perkovic January, 20 2023
+ * A subclass of Person that represents a Student and their common attributes
  */
 
 public class Student extends Person {
@@ -19,8 +15,12 @@ public class Student extends Person {
         return grade;
     }
 
+    public void setGrade(int grade) {
+        this.grade = grade;
+    }
+
     @Override
     public String toString() {
-        return super.toString() + " Grade " + grade;
+        return super.toString() + " Grade : " + grade;
     }
 }
